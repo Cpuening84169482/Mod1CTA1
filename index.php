@@ -6,9 +6,9 @@
     <?php 
       $a = 26;
       $b = 200;
-      echo "\n", "Before Swapping: " . $a . ', ' . $b;
+      echo "\nBefore Swapping: " . $a . ', ' . $b;
       list( $a, $b ) = array( $b, $a );
-      echo "\r\nAfter Swapping: " . $a . ', ' . $b;
+      echo "\nAfter Swapping: " . $a . ', ' . $b;
     ?> 
 
   </body>
